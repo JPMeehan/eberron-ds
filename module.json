@@ -16,7 +16,22 @@
     }
   ],
   "flags": {
-    "canUpload": true
+    "canUpload": true,
+    "draw-steel": {
+      "books": {
+        "Eberron": {
+          "label": "EBRN",
+          "title": "Eberron Homebrew"
+        }
+      },
+      "defaultBook": "Eberron",
+      "licenses": {
+        "WotC FCP": {
+          "label": "Wizards of the Coast Fan Content Policy"
+        }
+      },
+      "defaultLicense": "WotC FCP"
+    }
   },
   "packs": [
     {
@@ -102,6 +117,13 @@
       },
       "system": "draw-steel",
       "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Eberron",
+      "color": "#8B0000",
+      "packs": ["journals", "monsters", "monster-features", "tables", "character-options", "origins", "rewards"]
     }
   ],
   "esmodules": ["eberron-ds.mjs"],

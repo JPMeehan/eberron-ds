@@ -10,7 +10,22 @@
             "rewards": "Projects & Rewards"
         },
         "LANGUAGES": {
-
+            "galifaran": "Galifaran",
+            "dwarvish": "Dwarvish",
+            "elvish": "Elvish",
+            "giant": "Giant",
+            "gnomish": "Gnomish",
+            "goblin": "Goblin",
+            "halfling": "Halfling",
+            "riedran": "Riedran",
+            "celestial": "Celestial",
+            "daelkyr": "Daelkyr",
+            "draconic": "Draconic",
+            "infernal": "Infernal",
+            "orc": "Orc",
+            "primordial": "Primordial",
+            "quori": "Quori",
+            "sylvan": "Sylvan"
         }
     }
 }
