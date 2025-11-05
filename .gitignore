@@ -1,0 +1,8 @@
+node_modules
+packs
+public
+!src/packs
+.vscode/settings.json
+foundry
+draw-steel
+foundry-config.yaml

@@ -1,0 +1,16 @@
+{
+    "EBERRON": {
+        "COMPENDIUM": {
+            "journals": "Eberron Journal",
+            "tables": "Roll Tables",
+            "monsters": "Monsters",
+            "monster-features": "Monster Features",
+            "origins": "Ancestries & Backgrounds",
+            "character-options": "Complications, Perks, and Kits",
+            "rewards": "Projects & Rewards"
+        },
+        "LANGUAGES": {
+
+        }
+    }
+}

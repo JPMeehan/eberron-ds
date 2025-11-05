@@ -1,0 +1,124 @@
+{
+  "id": "eberron-ds",
+  "title": "Eberron Draw Steel",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>Compendium content for playing Eberron in Draw Steel</p>",
+  "authors": [
+    {
+      "name": "Joseph M.",
+      "url": "https://joseph-meehan.carrd.co/",
+      "discord": "chaosos",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "monsters",
+      "label": "EBERRON.COMPENDIUM.monsters",
+      "path": "packs/monsters",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "draw-steel",
+      "flags": {}
+    },
+    {
+      "name": "monster-features",
+      "label": "EBERRON.COMPENDIUM.monster-features",
+      "path": "packs/monster-features",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "draw-steel",
+      "flags": {}
+    },
+    {
+      "name": "origins",
+      "label": "EBERRON.COMPENDIUM.origins",
+      "path": "packs/origins",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "draw-steel",
+      "flags": {}
+    },
+    {
+      "name": "character-options",
+      "label": "EBERRON.COMPENDIUM.character-options",
+      "path": "packs/character-options",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "draw-steel",
+      "flags": {}
+    },
+    {
+      "name": "rewards",
+      "label": "EBERRON.COMPENDIUM.rewards",
+      "path": "packs/rewards",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "draw-steel",
+      "flags": {}
+    },
+    {
+      "name": "tables",
+      "label": "EBERRON.COMPENDIUM.tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "draw-steel",
+      "flags": {}
+    },
+    {
+      "name": "journals",
+      "label": "EBERRON.COMPENDIUM.journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "draw-steel",
+      "flags": {}
+    }
+  ],
+  "esmodules": ["eberron-ds.mjs"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "draw-steel",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}
