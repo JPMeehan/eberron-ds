@@ -5,6 +5,8 @@
   "download": "AUTO",
   "manifest": "https://github.com/JPMeehan/eberron-ds/releases/latest/download/module.json",
   "url": "https://github.com/JPMeehan/eberron-ds",
+  "bugs": "https://github.com/JPMeehan/eberron-ds/issues",
+  "changelog": "CHANGELOG.md",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -142,6 +144,15 @@
       {
         "id": "draw-steel",
         "type": "system",
+        "manifest": "https://raw.githubusercontent.com/MetaMorphic-Digital/draw-steel/refs/heads/main/system.json",
+        "compatibility": {}
+      }
+    ],
+    "recommended": [
+      {
+        "id": "eberron-calendar",
+        "type": "module",
+        "manifest": "https://github.com/JPMeehan/eberron-calendar/releases/latest/download/module.json",
         "compatibility": {}
       }
     ]
