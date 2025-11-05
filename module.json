@@ -1,8 +1,8 @@
 {
   "id": "eberron-ds",
   "title": "Eberron Draw Steel",
-  "version": "AUTO",
-  "download": "AUTO",
+  "version": "#{VERSION}#",
+  "download": "#{DOWNLOAD}#",
   "manifest": "https://github.com/JPMeehan/eberron-ds/releases/latest/download/module.json",
   "url": "https://github.com/JPMeehan/eberron-ds",
   "bugs": "https://github.com/JPMeehan/eberron-ds/issues",
