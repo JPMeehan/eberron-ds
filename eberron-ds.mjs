@@ -2,6 +2,7 @@ Hooks.once("init", () => {
   // Remove all default languages
   for (const key in CONFIG.DRAW_STEEL.languages) delete CONFIG.DRAW_STEEL.languages[key];
 
+  // Languages in Rising From the Last War ch. 1
   Object.assign(CONFIG.DRAW_STEEL.languages, {
     galifaran: { label: "EBERRON.LANGUAGES.galifaran" },
     dwarvish: { label: "EBERRON.LANGUAGES.dwarvish" },

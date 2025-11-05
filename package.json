@@ -15,7 +15,8 @@
     "pushLDBtoJSON": "node ./tools/pushLDBtoJSON.mjs",
     "unpack": "npm run pushLDBtoJSON",
     "build:packs": "npm run pullJSONtoLDB",
-    "postinstall": "npm run createSymlinks"
+    "postinstall": "npm run createSymlinks",
+    "prepareRelease": "npm run build:packs"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^3.0.1"
