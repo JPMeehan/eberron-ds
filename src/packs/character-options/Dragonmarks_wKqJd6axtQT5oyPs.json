@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": "B8l7fLKPslWK2F8L",
+  "name": "Dragonmarks",
+  "color": null,
+  "sorting": "a",
+  "_id": "wKqJd6axtQT5oyPs",
+  "description": "",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 1769969514345,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!wKqJd6axtQT5oyPs"
+}

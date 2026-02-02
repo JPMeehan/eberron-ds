@@ -1,0 +1,67 @@
+{
+  "folder": "fIB028qKt2K7AzzA",
+  "name": "Khoravar",
+  "type": "ancestry",
+  "_id": "HB45S3nhgrLLkjPZ",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "director": ""
+    },
+    "source": {
+      "book": "Eberron",
+      "page": "",
+      "license": "WotC FCP"
+    },
+    "_dsid": "khoravar",
+    "advancements": {
+      "vNwJITFEcQRU7baX": {
+        "sort": 100000,
+        "name": "Signature Trait",
+        "img": null,
+        "type": "itemGrant",
+        "requirements": {
+          "level": null
+        },
+        "_id": "vNwJITFEcQRU7baX"
+      },
+      "zvnpQRhgG8ff7HH9": {
+        "sort": 200000,
+        "name": "Purchased Traits",
+        "img": null,
+        "type": "itemGrant",
+        "requirements": {
+          "level": null
+        },
+        "_id": "zvnpQRhgG8ff7HH9",
+        "description": "<p>You have 3 ancestry points to spend on the following.</p>",
+        "repick": {
+          "respite": ""
+        },
+        "additional": {
+          "type": "ancestryTrait"
+        },
+        "pool": []
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 1769970994705,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!HB45S3nhgrLLkjPZ"
+}

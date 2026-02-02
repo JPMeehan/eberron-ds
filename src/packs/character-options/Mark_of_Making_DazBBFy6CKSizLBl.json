@@ -1,0 +1,39 @@
+{
+  "folder": "wKqJd6axtQT5oyPs",
+  "name": "Mark of Making",
+  "type": "perk",
+  "_id": "DazBBFy6CKSizLBl",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Choose a crafting skill. You have an edge on tests made using that skill.</p><p>Whenever you make a project roll for a crafting project, you roll three dice and choose which two rolls to use.</p>",
+      "director": ""
+    },
+    "source": {
+      "book": "Eberron",
+      "page": "",
+      "license": "WotC FCP"
+    },
+    "_dsid": "mark-of-making",
+    "advancements": {},
+    "perkType": "crafting"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 1769969592554,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!DazBBFy6CKSizLBl"
+}

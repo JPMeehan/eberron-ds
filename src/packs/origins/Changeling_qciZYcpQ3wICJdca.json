@@ -1,0 +1,38 @@
+{
+  "folder": "9zsYwk7rexsw04lf",
+  "name": "Changeling",
+  "type": "ancestry",
+  "_id": "qciZYcpQ3wICJdca",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "director": ""
+    },
+    "source": {
+      "book": "Eberron",
+      "page": "",
+      "license": "WotC FCP"
+    },
+    "_dsid": "changeling",
+    "advancements": {}
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 1769970953592,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!qciZYcpQ3wICJdca"
+}
