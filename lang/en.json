@@ -1,4 +1,11 @@
 {
+    "DRAW_STEEL": {
+        "SKILL": {
+            "List": {
+                "Timescape": "Planes"
+            }
+        }
+    },
     "EBERRON": {
         "COMPENDIUM": {
             "journals": "Eberron Journal",
