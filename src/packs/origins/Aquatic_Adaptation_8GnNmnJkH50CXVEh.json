@@ -1,0 +1,94 @@
+{
+  "folder": "Z6OhGcrqcP8TTMlX",
+  "name": "Aquatic Adaptation",
+  "type": "ancestryTrait",
+  "_id": "8GnNmnJkH50CXVEh",
+  "img": "icons/magic/water/water-elemental-blue-teeth.webp",
+  "system": {
+    "description": {
+      "value": "<p>While shapeshifted, you can choose to grow gills that let you breathe underwater and fins that let you swim at full speed while moving.</p>",
+      "director": ""
+    },
+    "source": {
+      "book": "Eberron",
+      "page": "",
+      "license": "WotC FCP"
+    },
+    "_dsid": "aquatic-adaptation",
+    "advancements": {},
+    "prerequisites": {
+      "value": "",
+      "dsid": [],
+      "level": null
+    },
+    "points": 1
+  },
+  "effects": [
+    {
+      "name": "Active Effect",
+      "img": "icons/magic/water/water-elemental-blue-teeth.webp",
+      "type": "base",
+      "origin": "Compendium.eberron-ds.origins.Item.8GnNmnJkH50CXVEh",
+      "_id": "ovtfEyXhrIHTjMj2",
+      "system": {
+        "end": {
+          "type": "",
+          "roll": "1d10 + @combat.save.bonus"
+        }
+      },
+      "changes": [
+        {
+          "key": "system.movement.types",
+          "mode": 2,
+          "value": "swim",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>While shapeshifted, you can choose to grow gills that let you breathe underwater and fins that let you swim at full speed while moving.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 1770966776886,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!8GnNmnJkH50CXVEh.ovtfEyXhrIHTjMj2"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 1770966740856,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8GnNmnJkH50CXVEh"
+}

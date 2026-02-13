@@ -6,7 +6,7 @@
   "img": "icons/svg/item-bag.svg",
   "system": {
     "description": {
-      "value": "",
+      "value": "<p>Choose Eavesdrop, Disguise, Hide, or Sneak. You have an edge on tests made using that skill.</p><p>As a maneuver, you can turn invisible until the end of the encounter. This invisibility ends after you make an ability roll. When you use this perk, you can’t use it again until you earn 1 or more Victories or complete a Respite.</p>",
       "director": ""
     },
     "source": {

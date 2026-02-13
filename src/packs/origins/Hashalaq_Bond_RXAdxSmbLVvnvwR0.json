@@ -1,0 +1,44 @@
+{
+  "folder": "fE81e6q25zgfLHOx",
+  "name": "Hashalaq Bond",
+  "type": "ancestryTrait",
+  "_id": "RXAdxSmbLVvnvwR0",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Your quori was a master manipulator. You have one skill of your choice from the interpersonal skill group, and you gain an edge on tests when attempting to discover an NPC’s motivations and pitfalls during a negotiation.</p>",
+      "director": ""
+    },
+    "source": {
+      "book": "Eberron",
+      "page": "",
+      "license": "WotC FCP"
+    },
+    "_dsid": "hashalaq-bond",
+    "advancements": {},
+    "prerequisites": {
+      "value": "",
+      "dsid": [],
+      "level": null
+    },
+    "points": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 1770967292615,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!RXAdxSmbLVvnvwR0"
+}

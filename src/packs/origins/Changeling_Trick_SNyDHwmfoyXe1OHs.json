@@ -1,0 +1,71 @@
+{
+  "folder": "PODUlu9vJTqoR9TR",
+  "name": "Changeling Trick",
+  "type": "ability",
+  "_id": "SNyDHwmfoyXe1OHs",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "source": {
+      "book": "Eberron",
+      "page": "",
+      "license": "WotC FCP"
+    },
+    "_dsid": "changeling-trick",
+    "prerequisites": {
+      "value": "",
+      "dsid": [],
+      "level": null
+    },
+    "story": "",
+    "keywords": [],
+    "type": "maneuver",
+    "category": "",
+    "resource": null,
+    "trigger": "",
+    "distance": {
+      "type": "melee",
+      "primary": 1,
+      "secondary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "enemy",
+      "custom": "",
+      "value": 1
+    },
+    "power": {
+      "roll": {
+        "reactive": false,
+        "formula": "@chr",
+        "characteristics": []
+      },
+      "effects": {}
+    },
+    "effect": {
+      "before": "<p>The target has a bane on attacks against you until the end of your next turn and is immune to this ability until the end of the encounter.</p>",
+      "after": ""
+    },
+    "spend": {
+      "text": "",
+      "value": null
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 1770967026314,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!SNyDHwmfoyXe1OHs"
+}

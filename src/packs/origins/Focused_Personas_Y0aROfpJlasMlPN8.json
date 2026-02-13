@@ -1,12 +1,12 @@
 {
-  "folder": "wKqJd6axtQT5oyPs",
-  "name": "Mark of Scribing",
-  "type": "perk",
-  "_id": "PpY7iwVNO4CwfYHh",
+  "folder": "Z6OhGcrqcP8TTMlX",
+  "name": "Focused Personas",
+  "type": "ancestryTrait",
+  "_id": "Y0aROfpJlasMlPN8",
   "img": "icons/svg/item-bag.svg",
   "system": {
     "description": {
-      "value": "<p>Choose a lore skill. You have an edge on tests made using that skill.</p><p>You can treat any language you don’t know as if you know a related language. Whenever you complete a project in a language you don’t know, you learn that language.</p>",
+      "value": "<p>Choose two skills and establish a persona for each. You have an edge on that skill while inhabiting that persona via your shapeshift.</p>",
       "director": ""
     },
     "source": {
@@ -14,9 +14,14 @@
       "page": "",
       "license": "WotC FCP"
     },
-    "_dsid": "mark-of-scribing",
+    "_dsid": "focused-personas",
     "advancements": {},
-    "perkType": "crafting"
+    "prerequisites": {
+      "value": "",
+      "dsid": [],
+      "level": null
+    },
+    "points": null
   },
   "effects": [],
   "sort": 0,
@@ -31,9 +36,9 @@
     "coreVersion": "13.351",
     "systemId": "draw-steel",
     "systemVersion": "0.10.0",
-    "createdTime": 1769969611385,
+    "createdTime": 1770966820506,
     "modifiedTime": null,
     "lastModifiedBy": null
   },
-  "_key": "!items!PpY7iwVNO4CwfYHh"
+  "_key": "!items!Y0aROfpJlasMlPN8"
 }

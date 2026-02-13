@@ -6,7 +6,7 @@
   "img": "icons/svg/item-bag.svg",
   "system": {
     "description": {
-      "value": "",
+      "value": "<p>Choose Pick Lock, Sabotage, or Search. You have an edge on tests made using that skill.</p><p>Whenever you take damage from a creature, you can use a triggered action to make that creature weakened until the end of their next turn.</p>",
       "director": ""
     },
     "source": {
