@@ -19,6 +19,6 @@
     "prepareRelease": "echo 'No Compendium Packs Yet'"
   },
   "devDependencies": {
-    "@foundryvtt/foundryvtt-cli": "^3.0.1"
+    "@foundryvtt/foundryvtt-cli": "^3.0.3"
   }
 }
