@@ -3,10 +3,10 @@
   "name": "Khoravar",
   "type": "ancestry",
   "_id": "HB45S3nhgrLLkjPZ",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/dnd-forge-artificer/assets/journal-art/khoravar-icon.webp",
   "system": {
     "description": {
-      "value": "",
+      "value": "<h4>Physical Characteristics</h4><p>Khoravar tend to be sturdier of build than elves but more slender than most humans. Khoravar have the same range of complexions as humans and elves, and like elves, khoravar often have eye or hair colors not normally found among humans. Male khoravar can grow facial hair, unlike male elves, and often sport thin mustaches, goatees, or short beards. Khoravar’ ears are about the size of human ears, but they are tapered, like the ears of their elven ancestors.</p><p>Khoravar retain a fraction of Elves' longevity, frequently living past 100 years and staying vigorous to the end.</p><h4>Background and History</h4><p>Few living khoravar are the offspring of human and elf parents. Since elves first came to Khorvaire, khoravar have represented a distinct cultural group, and most are descendants of early interbreeding. Khoravar originally hail from what today is Valenar, but they have since spread across the continent, migrating with Khorvaire's human populations. Khoravar never formed their own nation. Instead, members of the race have had formative roles in human nations. They have steered the course of governments , economies , and wars, but they have done so as individuals, organizations, or guilds, never as a unified society.</p><h4>Khoravar Lands</h4><p>The Khoravar have no permanent settlements on Khorvaire, and instead are integrated fully into human society. The exception is Stormhome, the remote island owned by House Lyrandar. Furthermore, Khoravar have climbed to positions of prominence and power in Valenar by taking over the bureacratic functions the Valaes Tairn are loathe to do.</p>",
       "director": ""
     },
     "source": {
@@ -24,7 +24,12 @@
         "requirements": {
           "level": null
         },
-        "_id": "vNwJITFEcQRU7baX"
+        "_id": "vNwJITFEcQRU7baX",
+        "pool": [
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.ZgfUlcd3kT2lPZSY"
+          }
+        ]
       },
       "zvnpQRhgG8ff7HH9": {
         "sort": 200000,
@@ -42,7 +47,27 @@
         "additional": {
           "type": "ancestryTrait"
         },
-        "pool": []
+        "pool": [
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.9FwRRRrHZyS6S460"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.po9QgY0evqTYfIJ8"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.wzfng7lhLalHvYi8"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.KHY5xQku7no6HsNt"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.ESRmC26bdpS21ohF"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.FDv0FObAEjpFo5WL"
+          }
+        ],
+        "chooseN": 3
       }
     }
   },

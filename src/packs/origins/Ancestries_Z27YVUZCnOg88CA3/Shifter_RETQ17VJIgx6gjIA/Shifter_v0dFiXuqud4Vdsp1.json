@@ -3,10 +3,10 @@
   "name": "Shifter",
   "type": "ancestry",
   "_id": "v0dFiXuqud4Vdsp1",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/dnd-forge-artificer/assets/journal-art/shifter-icon.webp",
   "system": {
     "description": {
-      "value": "",
+      "value": "<h4>Physical Characteristics</h4><p>In broad strokes, shifters resemble humans with animalistic features based on their subrace. Beasthide shifters associate themselves with boars and bears, tending towards the larger end of the spectrum. Longtooth shifters have more lupine features, while Razorclaw shifters have more feline features. Swiftstride shifters tend to be leaner and smaller than others.</p><p>Shifters have similar lifespans to humans, although their more rural living means they rarely reach the upper bounds.</p><h4>Background and History</h4><p>Sometimes called the weretouched, most inhabitants of Khorvaire believe Shifters are the descendants of humans and lycanthropes. While lycanthropes existed in Khorvaire prior to the Kingdom of Galifar, they were not truly numerous until the beginning of the 9th century. Somewhere in this time something fundamentally changed in the curse of lycanthropy, leading to major outbreaks throughout Western Khorvaire. The Church of the Silver Flame responded en force, rallying holy armies into battle. In their zeal the Church slaughtered innocents, including many Shifters who were mistaken for true lycanthropes.</p><p>In the century that has passed since the Purges ended more moderate forces of self-reflection have gained authority in the church, but this mattered little to the shifters who joined with Reacher farmers who sought to secede from Aundair for economic reasons. Most shifter tribes have become reclusive and reject the outside world, but plenty of young shifters feel the world has moved on from the oppression of the past.</p><h4>Shifter Lands</h4><p>In Khorvaire the vast majority of Shifters can be found in the Eldeen Reaches, although small shifter communities exist elsewhere in the continent, typically in the wilder regions that were abandoned over the course of the Last War.</p><p>Beyond Khorvaire, tribes of Shifters live in the northmost reaches of Sarlona, outside of the Riedran Empire.</p>",
       "director": ""
     },
     "source": {
@@ -15,7 +15,61 @@
       "license": "WotC FCP"
     },
     "_dsid": "shifter",
-    "advancements": {}
+    "advancements": {
+      "KgExorLmvSTTNUtq": {
+        "sort": 100000,
+        "name": "Signature Trait",
+        "img": null,
+        "type": "itemGrant",
+        "requirements": {
+          "level": null
+        },
+        "_id": "KgExorLmvSTTNUtq",
+        "pool": [
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.5wRah6cuPUax6Hw3"
+          }
+        ]
+      },
+      "Z9h1hvHJT2sS7clF": {
+        "sort": 200000,
+        "name": "Purchased Traits",
+        "img": "icons/skills/social/trading-injustice-scale-gray.webp",
+        "type": "itemGrant",
+        "requirements": {
+          "level": null
+        },
+        "_id": "Z9h1hvHJT2sS7clF",
+        "description": "<p>You have 3 ancestry points to spend on the following traits.</p>",
+        "repick": {
+          "respite": ""
+        },
+        "chooseN": 3,
+        "pool": [
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.t56rXOpUKecf62qm"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.838djzL3FwyTnfJH"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.SgihW4SZjjCVofdJ"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.KaUo2VnRIwUwGW5L"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.5LYh0Sll2gKMXqek"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.7dVDAJnMkgKWE91v"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.ZTIBzalD5E4nwYPN"
+          }
+        ]
+      }
+    }
   },
   "effects": [],
   "sort": 0,

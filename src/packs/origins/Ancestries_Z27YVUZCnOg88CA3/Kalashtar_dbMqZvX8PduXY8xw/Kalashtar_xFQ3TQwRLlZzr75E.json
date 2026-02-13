@@ -3,10 +3,10 @@
   "name": "Kalashtar",
   "type": "ancestry",
   "_id": "xFQ3TQwRLlZzr75E",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/dnd-forge-artificer/assets/journal-art/kalashtar-icon.webp",
   "system": {
     "description": {
-      "value": "",
+      "value": "<h4>Physical Characteristics</h4><p>Kalashtar appear very similar to humans, but they have a grace and elegance that makes them seem almost too beautiful. They are slightly taller than the average human, and their faces have a slight angularity that sets them apart from the human norm, but these deviations only make them seem more attractive</p><h4>Background and History</h4><p>The kalashtar are a compound race: incorporeal entities from the alien plane of Dal Quor, the Region of Dreams, merged with human bodies and spirits to form a distinct species. They were once a minority among the quori, the native race of Dal Quor, hunted and persecuted for their religious beliefs. Thousands of years after the quori invaded Eberron and the connection between their plane and the Material Plane was severed, the kalashtar were the first of the quori to discover a means to reach the Material Plane once more. Fleeing persecution, they transformed their physical forms into psychic projections that allowed them to enter the Material Plane and possess willing humans. Today, new kalashtar are born, not possessed; neither spirit nor human, they are a new race that breeds true</p><h4>Kalashtar Lands</h4><p>The kalashtar homeland is a region of Sarlona called Adar, a land of forbidding mountains and hidden fortresses in the southeastern portion of the continent. Even in Adar their numbers are small, and the number of kalashtar found in Khorvaire is much smaller still. However, they can be found in many of the largest human cities. The largest kalashtar population in Khorvaire is in the city of Sharn.</p>",
       "director": ""
     },
     "source": {
@@ -15,7 +15,77 @@
       "license": "WotC FCP"
     },
     "_dsid": "kalashtar",
-    "advancements": {}
+    "advancements": {
+      "kneaWUc6ZGRUvaY1": {
+        "sort": 100000,
+        "name": "Signature Trait",
+        "img": "icons/magic/symbols/circled-gem-pink.webp",
+        "type": "itemGrant",
+        "requirements": {
+          "level": null
+        },
+        "_id": "kneaWUc6ZGRUvaY1",
+        "description": "",
+        "pool": [
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.rG18x4kpWnP97hMP"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.Z1wYRYGCj969TL2M"
+          }
+        ],
+        "chooseN": null,
+        "additional": {
+          "type": "",
+          "perkType": []
+        },
+        "repick": {
+          "respite": ""
+        }
+      },
+      "NrtYzjCxZMToRENF": {
+        "sort": 200000,
+        "name": "Purchased Traits",
+        "img": "icons/skills/social/trading-injustice-scale-gray.webp",
+        "type": "itemGrant",
+        "requirements": {
+          "level": null
+        },
+        "_id": "NrtYzjCxZMToRENF",
+        "description": "<p>You have 3 ancestry points to spend on the following traits.</p>",
+        "repick": {
+          "respite": ""
+        },
+        "pool": [
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.G4wFvAyLp5NDs6PC"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.ULVzTICjfBgZcXQu"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.RXAdxSmbLVvnvwR0"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.pjMr3N3ezaKdA655"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.HDOvQ5QUqUmmttr5"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.F7UJLztmzMp0vlDP"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.CBMBT93lh7HGN7jj"
+          }
+        ],
+        "chooseN": 3,
+        "additional": {
+          "type": "ancestryTrait",
+          "perkType": []
+        }
+      }
+    }
   },
   "effects": [],
   "sort": 0,

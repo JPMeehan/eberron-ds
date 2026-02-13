@@ -3,10 +3,10 @@
   "name": "Changeling",
   "type": "ancestry",
   "_id": "qciZYcpQ3wICJdca",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/dnd-forge-artificer/assets/journal-art/changeling-icon.webp",
   "system": {
     "description": {
-      "value": "",
+      "value": "<h4>Physical Characteristics</h4><p>In their natural form changelings are slender and pale, with colorless eyes and silver-white hair. A changeling can alter its physical appearance with a thought. While this can be used to deceive others, it is a natural form of expression for the changeling. A changeling shifts shapes the way others might change clothes. A casual shape—one created on the spur of the moment, with no depth or history—is called a mask. A mask can be used to express a mood or to serve a specific purpose and then never used again.</p><p>However, many changelings develop identities that have more depth. They build an identity over time, crafting a persona with a history and beliefs. This focused identity helps a changeling pinpoint a particular skill or emotion. A changeling adventurer might have personas for many situations, including negotiation, investigation, and combat. Personas can be shared by multiple changelings; there might be three healers in a community, but whoever is on duty will adopt the persona of Tek, the kindly old medic. Personas can even be passed down through a family, allowing a younger changeling to take advantage of contacts established by previous users of the persona</p><h4>Background and History</h4><p>The changeling tribes refuse to let their stories be bound by the written word. The Taleshapers maintain that writing down a story traps it in a single shape; like a changeling, a story should be free to choose the face that suits the moment and the audience. This makes it difficult to pin down changeling history. The most common story goes something like the following -</p><p>\"Long ago there was a woman named Jes, and she had a hundred children. Her rivals conspired against her, and swore to kill her hundred children. These enemies numbered in the thousands and wielded dark magic, and the Children would never prevail against them. Jes begged the Sovereigns for help, but their only answer was the wind and rain. She sought the aid of the Silver Flame, but its keepers would not hear her. In the depths of her despair, a lonely traveler took her hand. ‘I will protect your children if they follow my path. Let them wander the world. None will know them. They will have no kingdom but the road, and no enemy will find them. They may be shunned by all the world, but they will never be destroyed.’ Jes agreed, and the traveler gave her his cloak. When she draped it over her children, their old faces melted away, and they could be whoever they wanted to be. And so it is until this day. Though the Children are shunned by all, the gift of the traveler protects them still, so long as they follow his path.\"</p><h4>Changeling Lands</h4><p>Wherever humans can be found, there are changelings; the question is whether their presence is known. Changelings are born to one of three paths. A few are raised in stable communities where changelings are true to their nature and deal openly with the people around them. Some are orphans, raised by other races, who find their way in the world without ever knowing another like themselves. Others are part of nomadic changeling clans spread across the Five Nations who keep their true nature hidden from the single-skins. Some clans maintain safe havens in major cities and communities, but most prefer to wander the unpredictable path of The Traveler.</p>",
       "director": ""
     },
     "source": {
@@ -15,7 +15,61 @@
       "license": "WotC FCP"
     },
     "_dsid": "changeling",
-    "advancements": {}
+    "advancements": {
+      "kneaWUc6ZGRUvaY1": {
+        "sort": 100000,
+        "name": "Signature Trait",
+        "img": null,
+        "type": "itemGrant",
+        "requirements": {
+          "level": null
+        },
+        "_id": "kneaWUc6ZGRUvaY1",
+        "pool": [
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.CeiHfOsVgoxt71jT"
+          }
+        ]
+      },
+      "NrtYzjCxZMToRENF": {
+        "sort": 200000,
+        "name": "Purchased Traits",
+        "img": "icons/skills/social/trading-injustice-scale-gray.webp",
+        "type": "itemGrant",
+        "requirements": {
+          "level": null
+        },
+        "_id": "NrtYzjCxZMToRENF",
+        "pool": [
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.8GnNmnJkH50CXVEh"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.uYpqGmR2rfn9usym"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.Y0aROfpJlasMlPN8"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.rcZVAhJMp0eRvcoQ"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.XY2S4tZybw6NDyjc"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.p4YxHLsMTNQw7Zyc"
+          }
+        ],
+        "chooseN": 3,
+        "repick": {
+          "respite": ""
+        },
+        "additional": {
+          "type": "ancestryTrait"
+        },
+        "description": "<p>You have 3 ancestry points to spend on the following traits.</p>"
+      }
+    }
   },
   "effects": [],
   "sort": 100000,

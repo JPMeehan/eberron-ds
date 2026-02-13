@@ -3,10 +3,10 @@
   "name": "Warforged",
   "type": "ancestry",
   "_id": "wu4Pooiz3IeqjZiY",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/dnd-forge-artificer/assets/journal-art/warforged-icon.webp",
   "system": {
     "description": {
-      "value": "",
+      "value": "<h4>Physical Characteristics</h4><p>Warforged are formed from a blend of organic and inorganic materials. Root-like cords infused with alchemical fluids serve as their muscles, wrapped around a framework of steel, darkwood or stone. Armored plates form a protective outer shell and reinforce joints. All warforged share a common facial design, with a hinged jaw and crystal eyes embedded beneath a reinforced brow ridge. A sigil is engraved into the center of the forehead; this is unique to each warforged. Beyond these common elements of warforged design, the precise materials and build of a warforged vary based on the purpose for which it was designed.</p><p>Juggernaut models are bigger and typically incorporate adamantine into the design, bulking the Warforged up for combat. Psiforged bear similar resemblance to the standard Envoy models, but have large shards of crystals embedded within their systems. Scouts are much smaller than other warforged and incorporate mithral into their design.</p><h4>Background and History</h4><p>Warforged were invented during The Last War as soldiers constructed by House Cannith. Early variations were just variations on golems, barely thinking constructs only capable of following simple orders. A breakthrough by the senior Merrix d'Cannith blended organic and inorganic materials to create the modern Warforged, fully possessing sentience.</p><p>The breakthrough that led to Creation Forges isn't fully understood, and came with quite a few unintended consequences. The Ghulra that adorns their forehead is a symbol unique to each warforged, like a human fingerprint. Furthermore, Warforged are fully capable of independent thought, which was not the intention for a new brand of constructed soldiers.</p><p>Warforged rights have changed significantly as the people of the five nations came to understand that these weren't just automata but living beings. The Treaty of Thronehold, which ended The Last War in 996, officially banned the operation of Creation Forges and officially freed all Warfoged. However, because most Warforged had only known working for their entire lives, many have effectively become indentured servants or stayed in the military.</p><p>The Psiforged were never an intended product of the creation forges - the source of the crystals remains unknown, as no psionically attuned crystals were fed into the creation forges. The five progenitors, the original five psiforged, have disappeared in the ten years since their appearance, while the Mourning wiped out the artificers who worked the Cannith facilities where they were created.</p><h4>Warforged Lands</h4><p>Warforged do not have any formal homeland, instead affiliating themselves with whatever nation purchased them upon creation. Cyre was the nation that relied on Warforged the most, leveraging its relative wealth to make up for its smaller population. With the destruction of Cyre many Warforged have found themselves lost and aimless, some flocking to New Cyre but others simply living in the wilds of the Five Nations.</p><p>Some Warforged have decided that in the absence of any lands for them the Mournland should become theirs. The Lord of Blades declares the supremacy of steel and the weakness of flesh, and has organized a number of terrorist attacks from his hideout within the dead gray mists. The followers of the Becoming God believe that in the absence of any deity for the Warforged they must build their own.</p>",
       "director": ""
     },
     "source": {
@@ -15,7 +15,61 @@
       "license": "WotC FCP"
     },
     "_dsid": "warforged",
-    "advancements": {}
+    "advancements": {
+      "6lw4GT2VYGm76KLN": {
+        "sort": 100000,
+        "name": "Signature Trait",
+        "img": null,
+        "type": "itemGrant",
+        "requirements": {
+          "level": null
+        },
+        "_id": "6lw4GT2VYGm76KLN",
+        "pool": [
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.K1YKa6yPJwxq4thl"
+          }
+        ]
+      },
+      "abld9KlI079IIBHW": {
+        "sort": 200000,
+        "name": "Purchased Traits",
+        "img": "icons/skills/social/trading-injustice-scale-gray.webp",
+        "type": "itemGrant",
+        "requirements": {
+          "level": null
+        },
+        "_id": "abld9KlI079IIBHW",
+        "description": "<p>You have 3 ancestry points to spend on the following traits.</p>",
+        "chooseN": 3,
+        "repick": {
+          "respite": ""
+        },
+        "additional": {
+          "type": "ancestryTrait"
+        },
+        "pool": [
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.j5P77iOQfnx75Mij"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.S3fjDDl3ZEHTNJ2b"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.JdshFN4RSzsBSXeC"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.vNZaH5FMuqyTN6bd"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.vwNJr4DZZ8EtV6bx"
+          },
+          {
+            "uuid": "Compendium.eberron-ds.origins.Item.cpVdfUveS9C9YdJO"
+          }
+        ]
+      }
+    }
   },
   "effects": [],
   "sort": 0,

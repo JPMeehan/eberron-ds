@@ -3,7 +3,7 @@
   "name": "Living Construct",
   "type": "feature",
   "_id": "K1YKa6yPJwxq4thl",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/creatures/magical/humanoid-silhouette-glowing-pink.webp",
   "system": {
     "description": {
       "value": "<p>Your construct body grants you immunity to poison damage equal to your level. You can’t suffocate, and you don’t need to eat or drink to stay alive.</p>",

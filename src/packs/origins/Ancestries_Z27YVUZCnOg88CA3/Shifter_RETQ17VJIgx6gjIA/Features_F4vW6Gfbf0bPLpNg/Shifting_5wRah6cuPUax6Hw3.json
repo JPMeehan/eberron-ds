@@ -3,7 +3,7 @@
   "name": "Shifting",
   "type": "ability",
   "_id": "5wRah6cuPUax6Hw3",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/creatures/mammals/wolf-howl-moon-gray.webp",
   "system": {
     "source": {
       "book": "Eberron",
@@ -18,7 +18,7 @@
     },
     "story": "",
     "keywords": [],
-    "type": "main",
+    "type": "maneuver",
     "category": "",
     "resource": null,
     "trigger": "",
@@ -40,11 +40,12 @@
       "effects": {}
     },
     "effect": {
-      "before": "",
+      "before": "<p>Until the end of the encounter, your features become more animalistic and you have an edge on Might and Agility tests.</p><p><strong>Special:</strong> Once you use this ability, you can’t use it again until you gain a victory or take a respite.</p>",
       "after": ""
     },
     "spend": {
-      "text": ""
+      "text": "",
+      "value": null
     }
   },
   "effects": [],
